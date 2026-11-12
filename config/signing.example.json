@@ -1,0 +1,8 @@
+{
+  "keyAlias": "ai-quota-watch",
+  "keystoreFile": ".secrets/watch-signing/debug.p12",
+  "certificateFile": ".secrets/watch-signing/debug.cer",
+  "profileFile": ".secrets/watch-signing/debug.p7b",
+  "storePasswordFile": ".secrets/watch-signing/store-pass",
+  "keyPasswordFile": ".secrets/watch-signing/store-pass"
+}

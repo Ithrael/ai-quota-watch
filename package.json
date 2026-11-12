@@ -1,0 +1,19 @@
+{
+  "name": "ai-quota-watch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check:glm": "node scripts/check-glm.mjs",
+    "prepare:watch": "node scripts/prepare-watch.mjs",
+    "build:watch": "node scripts/build-watch.mjs",
+    "preview": "node scripts/preview.mjs",
+    "sign:watch": "python3 scripts/sign-watch.py",
+    "push:phone": "node scripts/push-phone.mjs"
+  },
+  "description": "GLM and Kimi Code quota dashboard for Huawei Lite Wearable watches"
+}

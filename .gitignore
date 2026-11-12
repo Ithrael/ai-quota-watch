@@ -1,0 +1,32 @@
+.secrets/
+.local/
+node_modules/
+build/
+.hvigor/
+.idea/
+local.properties
+*.p12
+*.p7b
+*.csr
+.DS_Store
+entry/src/main/js/MainAbility/common/glm.js
+entry/src/main/js/MainAbility/common/kimi.js
+entry/src/main/js/MainAbility/common/local-config.js
+*.hap
+*.app
+.playwright-mcp/
+
+# Private signing material, tool crash reports and local environment
+*.key
+*.pem
+*.cer
+*.jks
+*.keystore
+*.bin
+*.log
+__pycache__/
+.env
+.env.*
+!.env.example
+# Local market research is unrelated to the public app
+/artifacts/watch-*.txt

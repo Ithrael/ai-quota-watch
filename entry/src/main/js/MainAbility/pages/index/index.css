@@ -1,0 +1,25 @@
+.page { width: 100%; height: 100%; background-color: #000000; justify-content: center; align-items: center; }
+.dial { width: 466px; height: 466px; background-color: #000000; }
+.quota-ring { start-angle: 220deg; total-angle: 280deg; stroke-width: 7px; }
+.five-hour-ring { width: 432px; height: 432px; left: 17px; top: 17px; center-x: 216px; center-y: 216px; radius: 209px; color: #85D7FF; background-color: #102B39; }
+.weekly-ring { width: 396px; height: 396px; left: 35px; top: 35px; center-x: 198px; center-y: 198px; radius: 191px; color: #F4BE72; background-color: #30271A; }
+.accounts { width: 316px; height: 48px; left: 75px; top: 59px; background-color: #000000; }
+.account { width: 100px; height: 44px; top: 2px; border-radius: 22px; font-size: 22px; text-align: center; }
+.first-account { left: 0px; }
+.second-account { left: 108px; }
+.kimi-account { left: 216px; }
+.caption { width: 260px; height: 24px; left: 103px; top: 111px; font-size: 18px; color: #8193A0; text-align: center; }
+.five-hour-metric { top: 145px; }
+.weekly-metric { top: 248px; }
+.metric { width: 270px; height: 96px; left: 98px; }
+.window { width: 100px; height: 36px; left: 8px; top: 0px; font-size: 23px; text-align: left; }
+.amount { font-size: 44px; width: 154px; height: 54px; left: 112px; top: -10px; text-align: right; }
+.five-hour-label { color: #85D7FF; }
+.five-hour-value { color: #85D7FF; }
+.weekly-label { color: #F4BE72; }
+.weekly-value { color: #F4BE72; }
+.limit { width: 145px; height: 25px; left: 0px; top: 38px; font-size: 17px; color: #A9BAC6; text-align: left; }
+.reset-count { width: 125px; height: 25px; left: 145px; top: 38px; font-size: 17px; color: #D1DFE8; text-align: right; }
+.reset-time { top: 65px; width: 270px; height: 24px; left: 0px; font-size: 17px; color: #8193A0; text-align: center; }
+.status { width: 292px; height: 25px; left: 87px; top: 358px; font-size: 17px; color: #8193A0; text-align: center; }
+.refresh { width: 164px; height: 48px; left: 151px; top: 389px; border-radius: 24px; background-color: #182B37; color: #D6EEFB; font-size: 22px; text-align: center; }

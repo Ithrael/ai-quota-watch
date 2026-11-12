@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "AI 用量"
+    },
+    {
+      "name": "app_desc",
+      "value": "查看 GLM 编程套餐剩余额度"
+    }
+  ]
+}

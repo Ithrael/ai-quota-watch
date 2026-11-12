@@ -1,0 +1,52 @@
+{
+  "app": {
+    "bundleName": "com.ithrael.aihud",
+    "vendor": "ithrael",
+    "version": {
+      "code": 1000000,
+      "name": "0.1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "查询套餐剩余额度",
+        "usedScene": {
+          "ability": [
+            ".MainAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "srcPath": "MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:app_desc",
+        "label": "$string:app_name",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "name": ".MainAbility",
+        "pages": [
+          "pages/index/index"
+        ]
+      }
+    ]
+  }
+}

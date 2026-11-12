@@ -1,0 +1,28 @@
+<div class="page">
+  <stack class="dial">
+    <progress class="quota-ring five-hour-ring" type="arc" percent="{{fiveHourPercent}}"></progress>
+    <progress class="quota-ring weekly-ring" type="arc" percent="{{weeklyPercent}}"></progress>
+    <stack class="accounts">
+      <input class="account first-account" type="button" value="GLM 1" onclick="selectFirst" style="background-color: {{firstTabBg}}; color: {{firstTabColor}};"></input>
+      <input class="account second-account" type="button" value="GLM 2" onclick="selectSecond" style="background-color: {{secondTabBg}}; color: {{secondTabColor}};"></input>
+      <input class="account kimi-account" type="button" value="Kimi" onclick="selectKimi" style="background-color: {{kimiTabBg}}; color: {{kimiTabColor}};"></input>
+    </stack>
+    <text class="caption">{{caption}}</text>
+    <stack class="metric five-hour-metric">
+      <text class="window five-hour-label">5 小时</text>
+      <text class="amount five-hour-value">{{fiveHourPercentText}}</text>
+      <text class="limit" show="{{!isKimi}}">{{fiveHourDetail}}</text>
+      <text class="reset-count" show="{{!isKimi}}">{{fiveHourResetsText}}</text>
+      <text class="reset-time">{{fiveHourResetText}}</text>
+    </stack>
+    <stack class="metric weekly-metric">
+      <text class="window weekly-label">本周</text>
+      <text class="amount weekly-value">{{weeklyPercentText}}</text>
+      <text class="limit" show="{{!isKimi}}">{{weeklyDetail}}</text>
+      <text class="reset-count" show="{{!isKimi}}">{{weeklyResetsText}}</text>
+      <text class="reset-time">{{weeklyResetText}}</text>
+    </stack>
+    <text class="status" style="color: {{statusColor}};">{{footerText}}</text>
+    <input class="refresh" type="button" value="{{buttonText}}" onclick="refresh"></input>
+  </stack>
+</div>
